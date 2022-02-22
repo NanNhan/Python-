@@ -1,0 +1,33 @@
+# print('hello world!')  # 输出方法
+# # 标识符由数字字母下划线组成，不能以数字开头
+# hello_world = 'hello world!'
+
+# # print函数
+# my_name = 'hangman'
+# print(my_name)
+
+# 输入函数
+# name = input('输入你的名字:')
+# print(name)
+
+# one = 1
+# # print(one)
+# # class表示一个类别
+# print(type(one))
+# two = 2.0
+# print(type(two))
+# # 支持运算
+# print(one + two)
+# print(float(one))
+
+# 水仙花数
+# num = 371
+# if (num%10)**3 + (num/10%10)**3 + (num//100)**3 == 371:
+#     print(num,'y')
+# else:
+#     print(num,'f')
+
+"""字符串的创建"""
+'''%s占位符'''
+name = 'x'
+print('名字:%s'% name)
