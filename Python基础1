@@ -31,3 +31,14 @@
 '''%s占位符'''
 name = 'x'
 print('名字:%s'% name)
+s = 'hello world!'
+# print(s.replace('hello', '你好').strip())
+# print(s.split())  # 默认以空白字符作为分隔符
+# print(s.split())
+s2 = '张三，李四，王五'
+print(s2.split('，'))
+s1 = 'hello world'
+print(s1.split())
+# print('?'.join(s2.split('，')))
+# result = 3 > 4
+# print(result)
