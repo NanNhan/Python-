@@ -1,0 +1,20 @@
+# num1 = input('输入第一个数字:')
+# num2 = input('输入第二个数字:')
+# print(type(num1))
+
+# if...else...
+# if 如果，判断语句的关键字
+# if 语句及其缩进是一个完整的代码块，如果满足if条件的代码块强制缩进
+
+light = 'green'
+if light == 'green':
+    print('go on')
+elif light == 'yellow':
+    print('no')
+elif light == 'red':
+    print('go')
+else:
+    print('get out')
+# elif 多条件判断
+# 设计多条件，我们要把每一个可想到的条件一一列举出来
+# 在所有单层条件中只要满足一个就可以跳出程序
