@@ -1,0 +1,101 @@
+animal = ['elephant', 'monkey', 'snake', 'tiger']
+length = len(animal)
+i = 0
+while i < length:
+    print(animal[i],'',end='')
+    i += 1
+    
+    
+    2、测试P70页例题5-5，并改动程序，将本程序的if语句用while或者for循环语句替换。
+animal = ['elephant', 'monkey', 'snake', 'tiger']
+x = input('请输入要查找的动物:')
+while x in animal:
+    a = animal.index(x)
+    print('元素{0}在列表中的索引是:{1}'.format(x,a))
+    break
+while x not in animal:
+    print('列表中不存在该元素')
+    break
+    
+    
+    
+    print("y可以使用+-*/      n可以使用%&|        z可以使用！")
+x = input("do you will use +-*/(y/n/z)")
+while x == 'y':
+    operator_list = ['+', '-', '*', '/']
+    number_1 = float(input("请输入第一个操作数:"))
+    operator = input("请输入运算符:")
+    number_2 = float(input("请输入第二个操作数:"))
+
+    while operator in operator_list:
+        if operator == '+':
+            result = number_1 + number_2
+        elif operator == '_':
+            result = number_1 - number_2
+        elif operator == '*':
+            result = number_1 * number_2
+        elif operator == '/':
+            result = number_1 / number_2
+        print(number_1, operator, number_2, "=", result)
+        break
+while x == 'y':
+    operator_list1 = ['%', '&', '|']
+    number_3 = int(input("请输入第一个操作数:"))
+    operator = input("请输入运算符:")
+    number_4 = int(input("请输入第一个操作数:"))
+    while operator in operator_list1:
+        if operator == '%' and type(number_1) == int and type(number_2) == int:
+            results = number_3 % number_4
+        elif operator == '&' and type(number_1) == int and type(number_2) == int:
+            results = number_3 & number_4
+        elif operator == '|' and type(number_1) == int and type(number_2) == int:
+            results = number_3 | number_4
+        break
+while x == 'z':
+    number_5 = int(input("请输入一个操作数:"))
+    if number_5 == 0:
+        print("False")
+    else:
+        print("Ture")
+        
+        
+        
+         = input()
+b = sorted(a)
+c = len(b)
+print(b[int((c - 1) / 2)])
+
+
+arr=[]
+r=""
+m=input("请输入")
+for string in m:
+    arr.append(string)
+last=arr[-1]
+arr.insert(0,last)
+arr.pop()
+for str in arr:
+    r=r+str
+print(r)
+
+
+x = [[1, 2, 3, 1], [4, 5, 6, 4], [7, 8, 9, 7], [1, 2, 3, 4]]
+num1 = 0
+num2 = 0
+num = num1 + num2
+for i in range(4):
+    for j in range(4):
+        a = x[i]
+        b = a[j]
+        if i == j:
+            num1 += b
+for i in range(0,4):
+    for j in range(0,4):
+        c = x[i]
+        d = c[j]
+        if i+j == 3:
+            num2 += d
+            num = num1 + num2
+print(num)
+
+
