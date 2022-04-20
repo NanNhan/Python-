@@ -1,0 +1,91 @@
+# def print_line():
+#     print("**************")
+#
+#
+# def print_text():
+#     print("hello world")
+#
+#
+# print_line()
+# print_line()
+# print_text()
+# print_line()
+# print_line()
+
+# def minimal(x,y):
+#     while x>y:
+#         print(y)
+#         break
+#     while x<=y:
+#         print(x)
+#         break
+# a = int(input())
+# b = int(input())
+# c = minimal(a,b)
+# print(c)
+
+# def demo(s):
+#     a = 1
+#     b = 1
+#     for ch in s:
+#         if 'A'<ch and ch<'Z':
+#             a += 1
+#         elif 'a'<ch and ch<'z':
+#             b += 1
+#     return a,b
+# s = input()
+# c = demo(s)
+# print(c)
+# print(c[0],c[1])
+
+# def ChangeInt(a):
+#     a = 10
+#     print(a)
+# a = 2
+# ChangeInt(a)
+# print('a = ',a)
+# 位置变量
+# def printme(a,b,c):
+#     print(a,b,c)
+# printme(1,2,3)
+# printme(1,2)
+# def abc(a,b,c,d):
+#     print(a,b,c,d)
+# abc(1,2,3,4)
+
+# def printinfo(name,age = 35):
+#     print('name',name)
+#     print('age',age)
+#     return
+# print(printinfo.__defaults__)
+# printinfo("root",50)
+# print('-------------------------')
+# printinfo("root")
+
+# def demo(newitem,old_list = []):
+#     old_list.append(newitem)
+#     return old_list
+# print(demo('5',[1,2,3,4]))
+# print(demo('a'))
+# print(demo('b'))
+
+# a = 1
+# def f(n = a):
+#     print(n)
+# a = 5
+# f()
+
+# def print_line():
+#     print("******************")
+#     def print_text():
+#         print("Hello world")
+#     print_text()
+# print_line()
+
+# def f(n):
+#     if n == 1:
+#         return 1
+#     else:
+#         return f(n - 1)*n
+# n = int(input('请输入一个正整数:'))
+# print(n,'的阶乘结果为:',f(n))
